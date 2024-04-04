@@ -1,4 +1,4 @@
-FROM jboss/wildfly
+FROM jboss/wildfly:latest
 ADD node-info.war /opt/jboss/wildfly/standalone/deployments/
 
 EXPOSE 8080
